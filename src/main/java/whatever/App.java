@@ -13,5 +13,6 @@ public class App {
         String content = AppHandling.readFile(file);
         AppHandling.sendMail("javandwro1@gmail.com", "Test z pliku", content);
         System.out.println("Hello World");
+        System.out.println("stash");
     }
 }
